@@ -251,6 +251,12 @@
 	.col-lg-12 .second-row {
 		gap: 5px 60px;
 	}
+
+	.col-lg-10 .infografia .center-img,
+	.col-lg-11 .infografia .center-img,
+	.col-lg-12 .infografia .center-img {
+		padding: 0 2.4rem !important;
+	}
 	.col-lg-7 .second-row,
 	.col-lg-8 .second-row,
 	.col-lg-9 .second-row {
@@ -302,7 +308,7 @@
 .custom_modal-header h2 {
 	font-weight: 400;
 	color: #1b1e21;
-	font-size: 1.5em !important;
+	font-size: 1.3em !important;
 }
 .custom_modal-close {
 	position: absolute;
