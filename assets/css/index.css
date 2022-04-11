@@ -239,6 +239,9 @@
 	.pr-xl-0 {
 		padding-right: 0 !important;
 	}
+	.article-clientes .sales {
+		margin-bottom: 0rem;
+	}
 	.button-arrows-container {
 		display: flex;
 		flex-direction: row;
