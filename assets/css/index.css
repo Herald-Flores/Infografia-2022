@@ -1,15 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 :root {
-	--yellow: #ffff99;
+	--yellow: #fff;
 	--green: #ccffcc;
 	--orange: #ffcc99;
-	--light-blue: #7ec1e7;
-	--light-hover: #2c7199ce;
+	--dark-blue: #1c337a;
+	--light-hover: #1c337a;
+	--text-hover: #00abeb;
 	--back: #1c1b1b;
 	--white: #fff;
 }
-.bg-yellow {
-	background-color: var(--yellow);
+.bg-light-blue {
+	background-color: var(--text-hover) !important;
+}
+.title-infografia {
+	color: var(--white);
+	font-weight: 700;
+}
+.subtitle-infografia {
+	color: var(--dark-blue);
+	font-weight: 700;
+}
+.text-white {
+	color: var(--white);
 }
 .paddding-4 {
 	padding: 0.5rem 1rem;
@@ -22,6 +34,7 @@
 	font-size: 18px;
 	padding: 0;
 	margin: 6px 0;
+	margin-bottom: 1.4rem !important;
 	line-height: 1.3;
 }
 .width-100 {
@@ -44,14 +57,14 @@
 }
 .button-arrow {
 	height: 55px;
-	background: var(--light-blue);
+	background: var(--dark-blue);
 	position: relative;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	z-index: 0;
 	text-decoration: none;
-	color: var(--back);
+	color: var(--white);
 	margin-bottom: 1rem;
 }
 
@@ -66,19 +79,19 @@
 .button-arrow::before {
 	content: "";
 	display: inline-block;
-	background: var(--light-blue);
+	background: var(--dark-blue);
 	width: 16px;
-	height: 55px;
+	height: 55.1px;
 	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 60% 50%);
 	position: absolute;
-	left: -0.98em;
-	top: 0;
+	left: -15px;
+	top: -0.1px;
 	z-index: 0;
 }
 .button-arrow::after {
 	content: "";
 	display: inline-block;
-	background: var(--light-blue);
+	background: var(--dark-blue);
 	width: 1em;
 	height: 100%;
 	clip-path: polygon(0 0, 60% 50%, 0 100%);
@@ -88,8 +101,8 @@
 }
 .button-arrow:hover {
 	cursor: pointer;
-	color: var(--white) !important;
-	box-shadow: 1px 2px 20px 3px rgba(0, 0, 0, 0.1);
+	color: var(--text-hover) !important;
+	box-shadow: 1px 2px 20px 3px rgba(25, 149, 180, 0.361);
 }
 
 .row-article {
@@ -219,7 +232,13 @@
 	.row-article {
 		grid-template-columns: 200px 6fr;
 	}
-
+	.row-article.row-first {
+		grid-template-columns: 100px 6fr;
+		gap: 0;
+	}
+	.pr-xl-0 {
+		padding-right: 0 !important;
+	}
 	.button-arrows-container {
 		display: flex;
 		flex-direction: row;
