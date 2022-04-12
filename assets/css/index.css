@@ -280,7 +280,7 @@
 	.col-lg-7 .second-row,
 	.col-lg-8 .second-row,
 	.col-lg-9 .second-row {
-		gap: 5px 30px;
+		gap: 5px 20px;
 		grid-template-columns: 4fr 4fr 4fr;
 	}
 	.article-clientes .sales {
