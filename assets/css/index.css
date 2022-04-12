@@ -5,23 +5,16 @@
 	--orange: #ffcc99;
 	--dark-blue: #1c337a;
 	--light-hover: #1c337a;
-	--text-hover: #00abeb;
+	--light-blue: #00abeb;
 	--back: #1c1b1b;
 	--white: #fff;
 }
 .bg-light-blue {
-	background-color: var(--text-hover) !important;
+	background-color: var(--light-blue) !important;
 }
 .title-infografia {
-	color: var(--white);
-	font-weight: 700;
-}
-.subtitle-infografia {
 	color: var(--dark-blue);
 	font-weight: 700;
-}
-.text-white {
-	color: var(--white);
 }
 .paddding-4 {
 	padding: 0.5rem 1rem;
@@ -99,9 +92,10 @@
 	right: -0.96em;
 	z-index: 0;
 }
-.button-arrow:hover {
+.button-arrow:hover,
+.button-arrow:focus {
 	cursor: pointer;
-	color: var(--text-hover) !important;
+	color: var(--light-blue) !important;
 	box-shadow: 1px 2px 20px 3px rgba(25, 149, 180, 0.361);
 }
 
@@ -156,6 +150,10 @@
 }
 .subtitle {
 	margin: 0 !important;
+}
+.subtitle-infografia {
+	color: var(--white);
+	margin-bottom: 0.7rem;
 }
 .second-row {
 	width: 100%;
@@ -239,9 +237,6 @@
 	.pr-xl-0 {
 		padding-right: 0 !important;
 	}
-	.article-clientes .sales {
-		margin-bottom: 0rem;
-	}
 	.button-arrows-container {
 		display: flex;
 		flex-direction: row;
@@ -274,7 +269,7 @@
 	}
 	.col-lg-11 .second-row,
 	.col-lg-12 .second-row {
-		gap: 5px 60px;
+		gap: 5px 20px;
 	}
 
 	.col-lg-10 .infografia .center-img,
@@ -287,6 +282,9 @@
 	.col-lg-9 .second-row {
 		gap: 5px 30px;
 		grid-template-columns: 4fr 4fr 4fr;
+	}
+	.article-clientes .sales {
+		margin-bottom: 0 !important;
 	}
 }
 
