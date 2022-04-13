@@ -208,7 +208,10 @@
 	padding: 1rem 1.5rem;
 	width: 100%;
 }
-
+h4.subtitle {
+	font-size: 16px;
+	margin-bottom: 1rem !important;
+}
 /* Article Soporte */
 .article-soporte {
 	background-color: var(--white);
@@ -234,10 +237,11 @@
 
 @media screen and (min-width: 1024px) {
 	.row-article {
-		grid-template-columns: 200px 6fr;
+		grid-template-columns: 180px 6fr;
+		gap: 0;
 	}
 	.row-article.row-first {
-		grid-template-columns: 100px 6fr;
+		grid-template-columns: 180px 6fr;
 		gap: 0;
 	}
 	.pr-xl-0 {
