@@ -245,7 +245,7 @@ h4.subtitle {
 		gap: 0;
 	}
 	.row-article.row-first {
-		grid-template-columns: 180px 6fr;
+		grid-template-columns: 180px 6fr 60px;
 		gap: 0;
 	}
 	.pr-xl-0 {
