@@ -9,6 +9,10 @@
 	--back: #0b0b0b;
 	--white: #fff;
 }
+.infografia {
+	border: 6px solid var(--light-blue);
+	padding: 1.5rem;
+}
 .bg-white {
 	background-color: var(--white) !important;
 }
