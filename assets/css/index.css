@@ -11,7 +11,7 @@
 }
 .infografia {
 	border: 6px solid var(--light-blue);
-	padding: 1.5rem;
+	padding: 1rem;
 }
 .bg-white {
 	background-color: var(--white) !important;
@@ -241,7 +241,7 @@ h4.subtitle {
 
 @media screen and (min-width: 1024px) {
 	.row-article {
-		grid-template-columns: 180px 6fr;
+		grid-template-columns: 180px 6fr 60px;
 		gap: 0;
 	}
 	.row-article.row-first {
