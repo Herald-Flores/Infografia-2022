@@ -241,11 +241,11 @@ h4.subtitle {
 
 @media screen and (min-width: 1024px) {
 	.row-article {
-		grid-template-columns: 180px 6fr 60px;
+		grid-template-columns: 120px 6fr 120px;
 		gap: 0;
 	}
 	.row-article.row-first {
-		grid-template-columns: 180px 6fr 60px;
+		grid-template-columns: 120px 6fr 120px;
 		gap: 0;
 	}
 	.pr-xl-0 {
